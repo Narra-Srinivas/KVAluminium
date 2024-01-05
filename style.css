@@ -1,4 +1,11 @@
-html, body {overflow-x: hidden;}
+html, body {
+    overflow-x :hidden 
+  } 
+
+.pageview {
+    overflow: hidden;
+    width: 100%;
+}
 
 *{
     margin: 0;
@@ -79,7 +86,7 @@ nav {
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 42px;
+    font-size: 32px;
     color: black;
 }
 
@@ -122,6 +129,7 @@ nav .bi {
         text-align: center;
         z-index: 2;
         transition: 1s;
+        overflow: hidden;
     }
 
     nav .bi {
