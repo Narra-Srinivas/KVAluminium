@@ -333,3 +333,17 @@ iframe {
     width: 80%;
     height: 30vh;
 }
+
+.footer span {
+    white-space: nowrap;
+}
+
+.footer span a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
